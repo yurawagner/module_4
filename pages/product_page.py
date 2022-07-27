@@ -4,6 +4,7 @@ from pages.locators import ProductPageLocators
 import time
 
 class ProductPage(BasePage):
+    
     def should_be_able_to_add_to_cart(self):
         self.should_be_cart_button()
         self.should_be_right_message()
